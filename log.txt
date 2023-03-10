@@ -1,4 +1,4 @@
-Fri Mar 10 14:26:40 2023
+Fri Mar 10 14:34:05 2023
 Windows-10-10.0.22621
 Ren'Py 8.0.3.22090809
  
@@ -15,7 +15,6 @@ Running init code took 0.02s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\kkris\\AppData\\Roaming/RenPy/backups\\ProjectG':
 Dump and make backups. took 0.02s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -27,9 +26,9 @@ Creating interface object took 0.14s
 Cleaning stores took 0.00s
 Init translation took 0.01s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
 Prepare screens took 0.02s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
