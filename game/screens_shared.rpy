@@ -25,6 +25,13 @@ screen main_HUD_time_of_day_bar:
             idle "shared/advance_timeOfDay.jpg"
             action Jump("shared_advance_TimeOfDay")
 
+screen main_HUD_money:
+    frame:
+        xpos 0.7 ypos 0.05
+        xsize 300
+        hbox:
+            text "[Inventory.money]"
+
 label shared_advance_TimeOfDay:
     if (DateTime_Handler.time_of_day[0] == DateTime_Handler.end_of_day):
             "I cant advance time..."
@@ -35,10 +42,10 @@ label shared_advance_TimeOfDay:
                 $ DateTime_Handler.advance_timeOfDay()
             "No":
                 "I would rather not."
-    jump expression current_label
+    jump expression Navigator.current_label
     
 
 screen main_HUD:
     use main_HUD_day_bar
     use main_HUD_time_of_day_bar
-    
+    use main_HUD_money

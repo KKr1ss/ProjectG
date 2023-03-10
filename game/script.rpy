@@ -11,8 +11,3 @@ label start:
     "A long time ago in a galaxy far, far away...."
     show screen main_HUD
     jump nav_boysCollege_mcRoom
-
-
-    
-    
-

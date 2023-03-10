@@ -10,4 +10,3 @@ label nav_boysCollege_outside:
     $ Navigator.set_navigation_data("Boys college", "nav_boysCollege_outside")
     scene bg boyscollege outside day
     call screen boysCollege_outside
-    

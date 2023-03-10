@@ -24,4 +24,4 @@ label boysCollege_mcRoom_sleep_in_bed:
             $ DateTime_Handler.advance_day() # advances time by 1 unit
         "No":
             "Im not sleepy."
-    call nav_boysCollege_mcRoom
+    jump nav_boysCollege_mcRoom

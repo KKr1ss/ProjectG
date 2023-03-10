@@ -2,17 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script_boysCollege_2floor.rpy", line 18: expected statement.
-    Navigator.set_navigation_data("Boys college: 2. floor", "nav_boysCollege_2floor")
-                                                                                     ^
+File "game/script_boysCollege_mcRoom.rpy", line 47: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
+    "-1500$"
+    ^
 
-File "game/script_boysCollege_mcRoom.rpy", line 18: expected statement.
-    Navigator.set_navigation_data("My room", "nav_boysCollege_mcRoom")
-                                                                      ^
-
-File "game/script_boysCollege_outside.rpy", line 12: expected statement.
-    Navigator.set_navigation_data("Boys college", "nav_boysCollege_outside")
-                                                                            ^
+File "game/script_boysCollege_mcRoom.rpy", line 48: expected statement.
+    else:
+        ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Mar 10 21:07:07 2023
+Fri Mar 10 21:50:35 2023
