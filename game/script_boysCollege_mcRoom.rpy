@@ -7,7 +7,8 @@ screen boysCollege_mcRoom():
     imagebutton:
         xpos 0.1
         ypos 0.28
-        idle "shared/door_1.png"
+        idle "shared/door_1_unhovered.png"
+        hover "shared/door_1_hovered.png"
         #action Jump("nav_boysCollege_2floor")
         action [Hide("boysCollege_mcRoom"), Jump("nav_boysCollege_2floor")]
 

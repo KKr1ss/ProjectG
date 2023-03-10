@@ -1,22 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/screens_shared.rpy", line 37, in script
-    jump expression current_label
-ScriptError: could not find label ''.
+  File "game/script_boysCollege_outside.rpy", line 13, in script
+    call screen boysCollege_outside
+ScriptError: could not find label 'boysCollege_2floor'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/screens_shared.rpy", line 37, in script
-    jump expression current_label
-  File "C:\Users\kkris\Documents\Renpy\renpy-8.0.3-sdk\renpy\ast.py", line 1974, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\kkris\Documents\Renpy\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
+  File "X:\Downloads\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "X:\Downloads\renpy-8.0.3-sdk\renpy\main.py", line 660, in main
+    run(restart)
+  File "X:\Downloads\renpy-8.0.3-sdk\renpy\main.py", line 146, in run
+    renpy.execution.run_context(True)
+  File "X:\Downloads\renpy-8.0.3-sdk\renpy\execution.py", line 938, in run_context
+    context.run()
+  File "game/script_boysCollege_outside.rpy", line 13, in script
+    call screen boysCollege_outside
+  File "X:\Downloads\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label ''.
+ScriptError: could not find label 'boysCollege_2floor'.
 
-Windows-10-10.0.22621 AMD64
+Windows-10-10.0.19044 AMD64
 Ren'Py 8.0.3.22090809
 ProjectG 1.0
-Fri Mar 10 14:13:03 2023
+Fri Mar 10 12:15:25 2023
