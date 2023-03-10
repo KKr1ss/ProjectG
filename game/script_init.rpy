@@ -2,6 +2,7 @@ init python:
     from datetime import datetime, timedelta
 
 default current_location = ""
+default current_label = ""
 
 #characters
 

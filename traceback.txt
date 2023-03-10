@@ -1,34 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 13, in script call
-    call nav_boysCollege_mcRoom
-  File "game/screens_shared.rpy", line 30, in script call
-    call advance_TimeOfDay() # advances time by 1 unit
-  File "game/script.rpy", line 13, in script call
-    call nav_boysCollege_mcRoom
-  File "game/screens_shared.rpy", line 30, in script call
-    call advance_TimeOfDay() # advances time by 1 unit
-ScriptError: could not find label 'advance_TimeOfDay'.
+  File "game/screens_shared.rpy", line 37, in script
+    jump expression current_label
+ScriptError: could not find label ''.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 13, in script call
-    call nav_boysCollege_mcRoom
-  File "game/screens_shared.rpy", line 30, in script call
-    call advance_TimeOfDay() # advances time by 1 unit
-  File "C:\Users\kkris\Documents\Renpy\renpy-8.0.3-sdk\renpy\ast.py", line 1705, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 13, in script call
-    call nav_boysCollege_mcRoom
-  File "game/screens_shared.rpy", line 30, in script call
-    call advance_TimeOfDay() # advances time by 1 unit
+  File "game/screens_shared.rpy", line 37, in script
+    jump expression current_label
+  File "C:\Users\kkris\Documents\Renpy\renpy-8.0.3-sdk\renpy\ast.py", line 1974, in execute
+    rv = renpy.game.script.lookup(target)
   File "C:\Users\kkris\Documents\Renpy\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'advance_TimeOfDay'.
+ScriptError: could not find label ''.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 ProjectG 1.0
-Tue Mar  7 22:36:21 2023
+Fri Mar 10 14:13:03 2023

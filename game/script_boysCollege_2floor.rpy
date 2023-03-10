@@ -11,6 +11,7 @@ screen boysCollege_2floor():
 
 label nav_boysCollege_2floor:
     $ current_location = "Boys college: 2. floor"
+    $ current_label = "nav_boysCollege_2floor"
+    
     scene bg boysCollege 2floor
-    show screen boysCollege_2floor
-    $ renpy.pause(hard=True)
+    call screen boysCollege_2floor

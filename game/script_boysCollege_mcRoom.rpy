@@ -13,9 +13,10 @@ screen boysCollege_mcRoom():
 
 label nav_boysCollege_mcRoom:
     $ current_location = "My room"
+    $ current_label = "nav_boysCollege_mcRoom"
     scene bg mc room
-    show screen boysCollege_mcRoom
-    $ renpy.pause(hard=True)
+
+    call screen boysCollege_mcRoom
 
 label boysCollege_mcRoom_sleep_in_bed:
     menu:  
@@ -24,4 +25,4 @@ label boysCollege_mcRoom_sleep_in_bed:
             call advance_day() # advances time by 1 unit
         "No":
             "Im not sleepy."
-    $ renpy.pause(hard=True)
+    call nav_boysCollege_mcRoom

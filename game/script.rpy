@@ -6,11 +6,12 @@
 # The game starts here.
 
 label start:
-    scene bg stars
     window auto
+    scene bg stars
     "A long time ago in a galaxy far, far away...."
     show screen main_HUD
-    call nav_boysCollege_mcRoom
+    jump nav_boysCollege_mcRoom
+
 
     
     

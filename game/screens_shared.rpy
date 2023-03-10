@@ -19,21 +19,23 @@ screen main_HUD_time_of_day_bar:
     frame:
         xpos 0.9 ypos 0
         xsize 50
+        ysize 50
         imagebutton:
-            idle "shared/door_1.png"
+            idle "shared/advance_timeOfDay.jpg"
             action Jump("shared_advance_TimeOfDay")
 
 label shared_advance_TimeOfDay:
     if (time_of_day[0] == end_of_day):
             "I cant advance time..."
-            return
-    menu:
-        "Do you want to advance the time of the day?"
-        "Yes":       
-            call advance_timeOfDay() # advances time by 1 unit
-        "No":
-            "I would rather not."
-    $ renpy.pause(hard=True)
+    else:
+        menu:
+            "Do you want to advance the time of the day?"
+            "Yes":       
+                call advance_timeOfDay() # advances time by 1 unit
+            "No":
+                "I would rather not."
+    jump expression current_label
+    
 
 screen main_HUD:
     use main_HUD_day_bar
