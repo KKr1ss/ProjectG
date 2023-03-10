@@ -1,4 +1,4 @@
-Fri Mar 10 14:34:05 2023
+Fri Mar 10 14:40:56 2023
 Windows-10-10.0.22621
 Ren'Py 8.0.3.22090809
  
@@ -8,7 +8,7 @@ Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.01s
 Loading script took 0.05s
-Loading save slot metadata. took 0.01s
+Loading save slot metadata. took 0.00s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\kkris\\Documents\\Renpy\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.02s
@@ -22,7 +22,7 @@ Initial gc. took 0.01s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.14s
+Creating interface object took 0.13s
 Cleaning stores took 0.00s
 Init translation took 0.01s
 Build styles took 0.00s
