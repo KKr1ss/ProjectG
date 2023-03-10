@@ -13,8 +13,6 @@ screen boysCollege_2floor():
         action [Hide("boysCollege_2floor"), Jump("nav_boysCollege_mcRoom")]
 
 label nav_boysCollege_2floor:
-    $ current_location = "Boys college: 2. floor"
-    $ current_label = "nav_boysCollege_2floor"
-    
+    $ Navigator.set_navigation_data("Boys college: 2. floor", "nav_boysCollege_2floor")
     scene bg boysCollege 2floor
     call screen boysCollege_2floor

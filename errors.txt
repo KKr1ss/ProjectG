@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/screens_shared.rpy", line 28: expected menuitem
-    if (time_of_day[0] == end_of_day):
-    ^
+File "game/script_boysCollege_2floor.rpy", line 18: expected statement.
+    Navigator.set_navigation_data("Boys college: 2. floor", "nav_boysCollege_2floor")
+                                                                                     ^
+
+File "game/script_boysCollege_mcRoom.rpy", line 18: expected statement.
+    Navigator.set_navigation_data("My room", "nav_boysCollege_mcRoom")
+                                                                      ^
+
+File "game/script_boysCollege_outside.rpy", line 12: expected statement.
+    Navigator.set_navigation_data("Boys college", "nav_boysCollege_outside")
+                                                                            ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue Mar  7 22:38:24 2023
+Fri Mar 10 21:07:07 2023

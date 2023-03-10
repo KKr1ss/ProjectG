@@ -9,7 +9,6 @@ label start:
     window auto
     scene bg stars
     "A long time ago in a galaxy far, far away...."
-    "dick"
     show screen main_HUD
     jump nav_boysCollege_mcRoom
 

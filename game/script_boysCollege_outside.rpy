@@ -7,8 +7,7 @@ screen boysCollege_outside():
         action [Hide("boysCollege_outside"), Jump("nav_boysCollege_2floor")]
 
 label nav_boysCollege_outside:
-    $ current_location = "Boys college"
-    $ current_label = "nav_boysCollege_outside"
+    $ Navigator.set_navigation_data("Boys college", "nav_boysCollege_outside")
     scene bg boyscollege outside day
     call screen boysCollege_outside
     
